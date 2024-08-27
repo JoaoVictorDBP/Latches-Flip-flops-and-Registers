@@ -2,7 +2,7 @@
 
 Projeto 1: desenvolvimento de estruturas básicas de Latches, Flip-flops, e Registradores usando as ferramentas Quartus e Modelsim.
 
-![gated](wait im gated.png)
+![gated]("wait im gated".png)
 
 Integrantes: 
 * João Victor De Bortoli Prado - 13672071
