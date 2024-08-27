@@ -1,0 +1,56 @@
+|part4
+Qa <= part1:inst.Q
+D => part1:inst.D
+D => part3:inst1.D
+D => part3:inst2.D
+CLK => part1:inst.Clk
+CLK => part3:inst1.CLK
+CLK => inst5555.IN0
+Qb <= part3:inst1.Q
+Qc <= part3:inst2.Q
+
+
+|part4|part1:inst
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part4|part3:inst1
+Q <= part1:inst.Q
+D => part1:inst1.D
+CLK => inst3.IN0
+CLK => part1:inst.Clk
+
+
+|part4|part3:inst1|part1:inst
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part4|part3:inst1|part1:inst1
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part4|part3:inst2
+Q <= part1:inst.Q
+D => part1:inst1.D
+CLK => inst3.IN0
+CLK => part1:inst.Clk
+
+
+|part4|part3:inst2|part1:inst
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part4|part3:inst2|part1:inst1
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
