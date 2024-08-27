@@ -4,5 +4,5 @@ Projeto 1: desenvolvimento de estruturas básicas de Latches, Flip-flops, e Regi
 
 Integrantes: 
 * João Victor De Bortoli Prado - 13672071
-* Samuel -
+* Samuel Sandoval Bonachela - 13686282
 * Lucas -
