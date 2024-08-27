@@ -1,0 +1,15 @@
+|part2
+Q <= part1:inst.Q
+CLK => part1:inst.Clk
+D => inst1.IN0
+D => part1:inst.S
+
+
+|part2|part1:inst
+Clk => R_g.IN0
+Clk => S_g.IN0
+R => R_g.IN1
+S => S_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+

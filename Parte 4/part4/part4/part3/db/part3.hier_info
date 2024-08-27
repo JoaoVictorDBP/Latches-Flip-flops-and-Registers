@@ -1,0 +1,19 @@
+|part3
+Q <= part1:inst.Q
+D => part1:inst1.D
+CLK => inst3.IN0
+CLK => part1:inst.Clk
+
+
+|part3|part1:inst
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part3|part1:inst1
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
